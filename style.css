@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#menu{
+    position: fixed;
+    width: 22%;
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+}
+
+#menino_bola{
+        background-image: url(author.jpg);
+        border-radius: 100%;
+        width: 160px;
+        height: 160px;
+        background-position-x: center;
+        background-position-y: 30%;
+        background-size: 100%;
+}
+
+#Louie{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+#abas{
+    list-style: none;
+    text-align: center;
+}
+
+#derivado{
+    font-family: "Montserrat", sans-serif;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    a{
+        text-decoration: none;
+        color: grey
+    }
+}
+
+a:hover{
+    transition: 0.2s;
+    color:black;
+    text-decoration: underline;
+}
+
+#texto1{
+    position: relative;
+    bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(51, 50, 50);
+    bottom: -300px;
+}
+
+div input{
+    border-radius: 10px;
+    border-color: white;
+    font-size: 17px;
+    opacity: 45%;
+    position: relative;
+    bottom: -320px;
+    height: 200%;
+    color: grey;
+}
+
+#seta img{
+    width: 9%;
+    opacity: 40%;
+    position: relative;
+    bottom: -307px;
+    left: 70px;
+    height: 30px;
+    width: 30px;
+}
+
+#principal{
+    margin-left: 22%;
+    right: 0;
+    height: 100vh;
+    width: 78%;
+    background-color: rgb(233, 233, 233) ;
+    display: flex;
+}
+
+#foto{
+    background-image: url(author.jpg);
+    width: 740px;
+    height: 100vh;
+    background-position-x: center;
+    background-position-y: 35%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#tela2{
+    width: 51%;
+    height: 100vh;
+}
+
+#desaparecido{
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    position: absolute;
+    top: 20%;
+    z-index: 0;
+}
+
+#hello{
+    position: absolute;
+    top: 220px;
+    color: #bfbfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-left: 2.5%;
+}
+
+#arthurpimenta{
+    margin-top: 34%;
+    margin-left: 6.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cor{
+    color: #ccb78f;
+}
+
+#palavras{
+    color: #999999;
+    font-family: "Poppins", sans-serif;
+    height: 30%;
+    width: 85%;
+    margin-left: 1%;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 4%;
+    z-index: 100;
+}
+
+#inicio{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700; 
+    z-index: 100;
+}
+
+#Assinatura{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 40px;
+    margin-top: 2.5%;
+}
+
+#cabecalho{
+    background-color: #ccb78f;
+    margin-left: 22%;
+    width: 78%;
+    height: 22vh;
+}
+
+#cabecalho_texto_divzinha{
+    height: 22vh;
+    width: 58%;
+    background-color: #ccb78f;
+    margin-left: 24%;
+}
+
+#cabecalho_texto_divdivzinha{
+    display: flex;
+    flex-direction: row;
+    p:first-child{
+        font-size: 13px;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 8%;
+        margin-right: 5%;
+        a{
+            color: black;
+        }
+    }
+    p:last-child{
+        margin-top: 8%;
+        font-size: 13px;
+        font-family: "Montserrat", sans-serif;
+        a{
+            color: black;
+        }
+    }
+}
+
+#sec02 {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    width: 78%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.carrosel {
+    background-image: url(author-2.jpg);
+    height: 100vh;
+    width: 49.4%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.textpart {
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 50.6%;
+}
+
+.bgtext {
+    position: absolute;
+    top: 210px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 650;
+    color: #EDEDED;
+}
+
+.iam {
+    position: absolute;
+    top: 230px;
+    font-size: 24px;
+    margin-left: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #bfbfbf;
+}
+
+.aphotographer {
+    position: absolute;
+    top: 280px;
+    margin-left: 48px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.aphotographer span {
+    color: #CCB78F;
+}
+
+.desc {
+    position: absolute;
+    top: 422px;
+    font-size: 18px;
+    margin-left: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #999999;
+    width: 650px;
+    line-height: 32px;
+}
+
+.signature {
+    font-family: "Herr Von Muellerhoff", cursive;
+    position: absolute;
+    top: 590px;
+    font-size: 40px;
+    margin-left: 48px;
+    font-weight: 500;
+    width: 650px;
+    line-height: 32px;
+    color: #000000CC;
+}
+
+.socialicon img {
+    width: 35px;
+    height: 35px;
+}
+
+.textpart ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 660px;
+}
+
+.primeiroli {
+    margin-left: 10px;
+}
+
+.textpart ul li {
+    margin-left: 25px;
+}
+
+/* SECTION 3 */
+
+#sec03 {
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    width: 78%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #242423;
+    width: 100%;
+    height: 58%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div {
+    background-color: transparent;
+    height: 260px;
+    width: 300px;
+    margin: 20px;
+}
+
+.footer p {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 16;
+    color: white;
+}
+
+.followhim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.followme {
+    padding-top: 55px;
+    letter-spacing: 3px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16;
+    font-weight: 650;
+    color: #000000CC;
+}
+
+.fotografias {
+    height: 300px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+}
+
+
+.insta {
+    opacity: 0;
+    filter: invert();
+    height: 50px;
+    z-index: 100;
+    transition: all 0.2s ease-in-out;
+}
+
+.fotografias div:hover .insta {
+    opacity: 1;
+}
+
+.fotografias div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 222.5px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.fotografias div:hover {
+    filter: brightness(0.7);
+}
+
+.recentphotos {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexphotos {
+    margin-top: 35px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexphotos > div {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.foto1 {
+    background-image: url(image_1.jpg);
+}
+
+.foto2 {
+    background-image: url(image_2.jpg);
+}
+
+.foto3 {
+    background-image: url(image_3.jpg);
+}
+
+.foto4 {
+    background-image: url(image_4.jpg);
+}
+
+.foto5 {
+    background-image: url(image_5.jpg);
+}
+
+.foto5 {
+    background-image: url(image_5.jpg);
+}
+
+.foto6 {
+    background-image: url(image_6.jpg);
+}
+
+.archives ul {
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(138, 138, 138);
+    font-size: 14px;
+}
+
+.archives li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.archives hr {
+    border: 0;
+    height: 1px;
+    background-color: #3d3d3d ;
+}
+
+.questions h2 {
+    display: flex;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #b1b1b1;
+}
+
+.questions h3 {
+    display: flex;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.questions img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.questions div {
+    margin-top: 50px;
+}
